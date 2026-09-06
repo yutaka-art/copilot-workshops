@@ -119,8 +119,8 @@ Copilot CLI をインストールできたので、次は Copilot にプロジ�
 - [Copilot CLI について][about-copilot-cli]
 - [Copilot CLI を使う][using-copilot-cli]
 
-[previous-lesson]: ../0-prerequisites/
-[next-lesson]: ../2-custom-instructions/
+[previous-lesson]: ./0-prerequisites.md
+[next-lesson]: ./2-custom-instructions.md
 [install-copilot-cli]: https://docs.github.com/copilot/how-tos/set-up/install-copilot-cli
 [install-npm]: https://docs.github.com/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli#installing-with-npm-all-platforms
 [install-winget]: https://docs.github.com/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli#installing-with-winget-windows
