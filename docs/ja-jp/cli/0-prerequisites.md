@@ -11,7 +11,7 @@ Copilot CLI の演習を始める前に、必要な準備を整えます。Tails
 
 これから作成するコード用にリポジトリのコピーを作成するため、[template][template-repository] からインスタンスを作成します。新しいインスタンスにはラボに必要なすべてのファイルが含まれており、演習を進める間はこのリポジトリを使用します。
 
-1. 新しいブラウザー ウィンドウで、このラボの GitHub リポジトリ `https://github.com/github-samples/tailspin-toys` に移動します。
+1. 新しいブラウザー ウィンドウで、このラボの リポジトリ `https://github.com/yutaka-art/tailspin-toys-jp` に移動します。
 2. ラボ用リポジトリ ページの **Use this template** ボタンを選択して、自分用のリポジトリ コピーを作成します。次に **Create a new repository** を選択します。
 
     ![「Use this template」ボタン](../../_images/ex0-use-template.png)
