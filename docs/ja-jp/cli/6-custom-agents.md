@@ -93,7 +93,7 @@ Copilot CLI では、`/agent` コマンドを使って custom agent を開始で
 - custom agent がどのように定義されるか。
 - Copilot CLI で custom agent を使う方法。
 
-次は、[いくつかの slash command][next-lesson] を確認し、Copilot CLI の追加テクニックを学びましょう。
+次は、[演習 7 - いくつかの slash command][next-lesson] を確認し、Copilot CLI の追加テクニックを学びましょう。
 
 ## リソース
 

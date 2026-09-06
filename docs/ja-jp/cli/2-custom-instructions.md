@@ -223,7 +223,7 @@ instruction に doc comment ルールを追加したので、先ほど生成し�
 - フォローアップのプロンプトを実行し、再生成されたコードが新しい標準を取り入れる様子を確認する。
 - instruction の更新と helper の土台の両方を commit して push する。
 
-次は、[コード生成の演習][next-lesson] で、これらの instruction を適用しながらバックログの作業を実装します。
+次は、[演習 3 - コード生成の演習][next-lesson] で、これらの instruction を適用しながらバックログの作業を実装します。
 
 ## リソース
 

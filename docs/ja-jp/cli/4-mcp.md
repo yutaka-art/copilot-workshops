@@ -142,7 +142,7 @@ Copilot は Playwright MCP server 経由でブラウザーを起動し、各ス�
 - `/mcp add` で Playwright MCP server を追加する。
 - Copilot にブラウザー操作を任せ、出荷前にフィルタリング機能を検証する。
 
-機能が正しく動作することを確認できたので、次の演習に進み、[agent skill の助けを借りて pull request を開く][next-lesson] ことができます。
+機能が正しく動作することを確認できたので、次の演習に進み、[演習 5 - agent skill の助けを借りて pull request を開く][next-lesson] ことができます。
 
 ## リソース
 
