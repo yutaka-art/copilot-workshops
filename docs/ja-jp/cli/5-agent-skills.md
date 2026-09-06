@@ -81,7 +81,7 @@ Tailspin Toys には PR 作成に関する要件があるため、AI ツール�
 1. 次のプロンプトを使って、Copilot に PR を作成するよう依頼します。
 
     ```
-    Can you please create a pull request for me!
+    プルリクエストを作成してください。
     ```
 
 2. Copilot がリクエストを受け付けます。しばらくすると、Copilot が **make-contribution** skill を利用していることが表示されます。
@@ -113,7 +113,7 @@ skill はタスク向けに最適ですが、より高度な作業には [カス
 - [Agent Skills リポジトリ][agent-skills-repo]
 - [awesome-copilot の Agent Skills][awesome-copilot-skills]
 
-[previous-lesson]: ../4-mcp/
-[next-lesson]: ../6-custom-agents/
+[previous-lesson]: ./4-mcp.md
+[next-lesson]: ./6-custom-agents.md
 [about-agent-skills]: https://docs.github.com/copilot/concepts/agents/about-agent-skills
 [awesome-copilot-skills]: https://github.com/github/awesome-copilot/tree/main/skills
