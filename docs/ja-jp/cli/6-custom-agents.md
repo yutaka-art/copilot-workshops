@@ -76,7 +76,7 @@ Copilot CLI では、`/agent` コマンドを使って custom agent を開始で
 3. 次のプロンプトを使い、アクセシビリティ agent に対してアクセシビリティ関連のバックログ項目をレビューし、修正を生成するよう依頼します。
 
     ```
-    Perform an accessibility review of the site. Pull the related issue down from the repository for details. Implement a high-contrast mode toggle that persists the user's preference across page reloads. Ensure there are e2e tests for any updates made to the project. Then create a PR with the updates.
+    サイトのアクセシビリティ・レビューを実施してください。詳細については、リポジトリから関連するIssueを確認してください。ページを再読み込みしてもユーザーの設定が保持されるような、ハイコントラストモードの切り替え機能を実装してください。プロジェクトへの変更に対しては、必ずE2Eテストを作成するようにしてください。その後、変更内容を含めたプルリクエスト（PR）を作成してください。
     ```
 
 4. Copilot がタスクの実行を開始します。まず issue を取得し、その後レビュー、更新の生成、最後に PR の作成へと進みます。PR を作成するときに、このプロジェクトの PR 用 skill を利用していることにも気づくはずです。
@@ -103,8 +103,8 @@ Copilot CLI では、`/agent` コマンドを使って custom agent を開始で
 - [organization で custom agent を使う準備][org-custom-agents]
 - [enterprise で custom agent を使う準備][enterprise-custom-agents]
 
-[previous-lesson]: ../5-agent-skills/
-[next-lesson]: ../7-slash-commands/
+[previous-lesson]: ./5-agent-skills.md
+[next-lesson]: ./7-slash-commands.md
 [custom-agents]: https://docs.github.com/copilot/how-tos/use-copilot-agents/use-copilot-cli#use-custom-agents
 [creating-custom-agents]: https://docs.github.com/copilot/how-tos/use-copilot-agents/cloud-agent/create-custom-agents
 [awesome-copilot-agents]: https://github.com/github/awesome-copilot/tree/main/agents
