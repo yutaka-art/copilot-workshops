@@ -42,14 +42,14 @@ lastUpdated: 2026-06-30
 
 ## はじめる
 
-**[演習 0: 前提条件から始める →](/docs/ja-jp/cli/0-prerequisites.md)**
+**[演習 0: 前提条件から始める →][ex0]**
 
-[ex0]: 0-prerequisites/
-[ex1]: 1-install-copilot-cli/
-[ex2]: 2-custom-instructions/
-[ex3]: 3-generating-code/
-[ex4]: 4-mcp/
-[ex5]: 5-agent-skills/
-[ex6]: 6-custom-agents/
-[ex7]: 7-slash-commands/
-[ex8]: 8-review/
+[ex0]: /docs/ja-jp/cli/0-prerequisites.md
+[ex1]: /docs/ja-jp/cli/1-install-copilot-cli.md
+[ex2]: /docs/ja-jp/cli/2-custom-instructions.md
+[ex3]: /docs/ja-jp/cli/3-generating-code.md
+[ex4]: /docs/ja-jp/cli/4-mcp.md
+[ex5]: /docs/ja-jp/cli/5-agent-skills.md
+[ex6]: /docs/ja-jp/cli/6-custom-agents.md
+[ex7]: /docs/ja-jp/cli/7-slash-commands.md
+[ex8]: /docs/ja-jp/cli/8-review.md
