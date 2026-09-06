@@ -118,14 +118,14 @@ Copilot CLI セッションに戻り、Copilot に機能をテストするよう
 server を接続し、アプリを起動したら、次のように Copilot に依頼して、先ほど実装したフィルタリング機能を試してもらいます。
 
 ```text
-Using the Playwright MCP server, open a browser to the running app at http://localhost:4321 and verify the new game filtering feature:
+Playwright MCPサーバーを使用してブラウザを起動し、http://localhost:4321 で動作しているアプリにアクセスして、新しいゲームのフィルタリング機能を検証してください。
 
-1. Go to the games page and note how many games are listed.
-2. Apply a category filter and confirm the list updates to only show games in that category.
-3. Clear it, then apply a publisher filter and confirm the list updates to that publisher.
-4. Combine a category and a publisher filter and confirm the results respect both.
+1. ゲーム一覧ページに移動し、表示されているゲームの数を確認します。
+2. カテゴリフィルタを適用し、リストがそのカテゴリのゲームのみを表示するように更新されることを確認します。
+3. フィルタを解除してからパブリッシャーフィルタを適用し、リストがそのパブリッシャーのゲームに更新されることを確認します。
+4. カテゴリフィルタとパブリッシャーフィルタを組み合わせて適用し、結果が両方の条件を反映していることを確認します。
 
-Report what you observe at each step, and call out anything that does not behave as expected.
+各ステップでの動作を報告し、期待通りに動作しない点があれば指摘してください。
 ```
 
 Copilot は Playwright MCP server 経由でブラウザーを起動し、各ステップを実行して、確認結果を報告します。その要約を issue の受け入れ条件と照らし合わせて読み、違和感があれば、追跡質問をしたり、pull request を開く前にコード修正を依頼したりしてください。
@@ -151,8 +151,8 @@ Copilot は Playwright MCP server 経由でブラウザーを起動し、各ス�
 - [Copilot CLI に MCP server を追加する][cli-add-mcp]
 - [GitHub MCP Server][github-mcp-server]
 
-[previous-lesson]: ../3-generating-code/
-[next-lesson]: ../5-agent-skills/
+[previous-lesson]: ./3-generating-code.md
+[next-lesson]: ./5-agent-skills.md
 [mcp-blog-post]: https://github.blog/ai-and-ml/llms/what-the-heck-is-mcp-and-why-is-everyone-talking-about-it/
 [github-mcp-server]: https://github.com/github/github-mcp-server
 [cli-add-mcp]: https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers
