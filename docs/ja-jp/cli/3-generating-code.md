@@ -44,7 +44,7 @@ AI の優れた使い方の 1 つが計画づくりです。何を作りたい�
 1. 次のプロンプトを Copilot CLI に入力し、フィルタリング issue に基づく計画を作成します。
 
     ```
-    /plan Retrieve the issue on the repository related to adding filtering. We already added a publishers helper in src/lib/publishers.ts, so treat that as existing work and plan the remaining updates (games filtering logic, UI, and tests).
+    /plan フィルタリング機能の追加に関連するリポジトリ上のIssueを確認してください。`src/lib/publishers.ts` にはすでに publishers 用のヘルパーが実装済みですので、これは既存の成果として扱い、残りの更新作業（ゲームのフィルタリングロジック、UI、テスト）の計画を立ててください。
     ```
 
 2. 計画を作成する過程で、Copilot から追跡質問が表示されることがあります。表示された場合は、自分ならどのように機能を実装するかに基づいて答えてください。
@@ -91,8 +91,8 @@ Copilot CLI の助けを借りて、Web サイトにフィルタリング機能�
 - [Copilot CLI について][about-copilot-cli]
 - [Copilot CLI のコンテキスト管理][context-management]
 
-[previous-lesson]: ../2-custom-instructions/
-[next-lesson]: ../4-mcp/
+[previous-lesson]: ./2-custom-instructions.md
+[next-lesson]: ./4-mcp.md
 [using-copilot-cli]: https://docs.github.com/copilot/how-tos/use-copilot-agents/use-copilot-cli
 [about-copilot-cli]: https://docs.github.com/copilot/concepts/agents/about-copilot-cli
 [context-management]: https://docs.github.com/copilot/how-tos/use-copilot-agents/use-copilot-cli#context-management
