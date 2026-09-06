@@ -1,43 +1,43 @@
-# Copilot Workshops — Workshop Content
+# Copilot Workshops — ワークショップコンテンツ
 
-Workshop content for **Copilot Workshops**, a guided exploration of GitHub Copilot's agentic capabilities (Copilot CLI, VS Code agent mode, the Copilot app, and the Copilot cloud agent) across the software development lifecycle.
+**Copilot Workshops** のワークショップコンテンツです。ソフトウェア開発ライフサイクル全体を通じて、GitHub Copilot のエージェント機能（Copilot CLI、VS Code のエージェントモード、Copilot アプリ、Copilot クラウドエージェント）をガイド付きで学べる教材です。
 
-The published site lives at **<https://github-samples.github.io/copilot-workshops/>**.
+公開サイトは **<https://github-samples.github.io/copilot-workshops/>** で閲覧できます。
 
 > [!NOTE]
-> The demo application learners build through during the workshop — Tailspin Toys, a pure-Astro crowdfunding site (SSR, API endpoints, and a Drizzle data layer) — lives in a separate repository: **<https://github.com/github-samples/tailspin-toys>**. This repo holds only the *content*: lesson Markdown, images, and the Astro + Starlight site that publishes them.
+> 受講者がワークショップを通じて構築するデモアプリケーション（Tailspin Toys、純粋な Astro 製のクラウドファンディングサイト。SSR、API エンドポイント、Drizzle データレイヤーを備える）は、別のリポジトリ **<https://github.com/github-samples/tailspin-toys>** で管理されています。このリポジトリが保持するのは*コンテンツ*のみ（レッスンの Markdown、画像、およびそれらを公開する Astro + Starlight サイト）です。
 
-## Start the workshop
+## ワークショップを始める
 
-Visit the published site: <https://github-samples.github.io/copilot-workshops/>.
+公開サイトにアクセスしてください: <https://github-samples.github.io/copilot-workshops/>。
 
-## Authoring
+## 執筆について
 
-If you want to add or edit content, start with **[AUTHORING.md](./AUTHORING.md)**. It has the mental model, file map, and step-by-step recipes for adding lessons and images.
+コンテンツを追加・編集したい場合は、まず **[AUTHORING.md](./AUTHORING.md)** をご覧ください。全体像の考え方、ファイル構成、レッスンや画像を追加するための手順が記載されています。
 
-For PR/CI rules, see **[CONTRIBUTING.md](./CONTRIBUTING.md)**.
+PR / CI のルールについては **[CONTRIBUTING.md](./CONTRIBUTING.md)** を参照してください。
 
-## Repository structure
+## リポジトリ構成
 
-- **`docs/`** — **Lesson source (plain Markdown). Edit here.** Browsable directly on github.com, no build required.
-  - `README.md` — Workshop landing page (also the published site's home via `slug: index`).
-  - `cli/`, `vscode/`, `cloud/`, `app/` — Per-harness lessons (Copilot CLI / VS Code / cloud agent / GitHub Copilot app). Each codespace-based harness opens with its own `0-prerequisites.md` setup lesson, and a folder `README.md` (routed via a `slug:` matching the folder) is its landing page.
-  - `es-es/`, `ja-jp/`, `ko-kr/`, `pt-br/`, `zh-cn/` — Translated locale trees (currently the app harness).
-  - `_images/` — Screenshots and diagrams (shared across all locales).
-- **`website/`** — Optional Astro + Starlight site that publishes `docs/` to GitHub Pages. Only needed to self-host or preview the rendered site.
-  - `astro.config.mjs` — Site URL, base path, `locales` block, sidebar.
-  - `src/content.config.ts` — Content loader (`base: '../docs'`).
-  - `src/pages/shared/0-prereqs.astro` — Full-HTML redirect forwarding the legacy `/shared/0-prereqs/` URL to the home page.
-- **`AUTHORING.md`** — Author entry point (recipes for adding/editing content).
-- **`CONTRIBUTING.md`** — PR flow + CI requirements.
+- **`docs/`** — **レッスンのソース（プレーンな Markdown）。編集はここで行います。** ビルド不要で github.com 上で直接閲覧できます。
+  - `README.md` — ワークショップのランディングページ（`slug: index` により公開サイトのホームも兼ねます）。
+  - `cli/`、`vscode/`、`cloud/`、`app/` — ハーネスごとのレッスン（Copilot CLI / VS Code / クラウドエージェント / GitHub Copilot アプリ）。codespace ベースの各ハーネスは、それぞれの `0-prerequisites.md` セットアップレッスンで始まり、フォルダーの `README.md`（フォルダーに一致する `slug:` でルーティング）がランディングページになります。
+  - `es-es/`、`ja-jp/`、`ko-kr/`、`pt-br/`、`zh-cn/` — 翻訳された各ロケールのツリー（現在は app ハーネス）。
+  - `_images/` — スクリーンショットや図（すべてのロケールで共有）。
+- **`website/`** — `docs/` を GitHub Pages に公開するためのオプションの Astro + Starlight サイト。レンダリング後のサイトをセルフホストまたはプレビューする場合にのみ必要です。
+  - `astro.config.mjs` — サイト URL、ベースパス、`locales` ブロック、サイドバー。
+  - `src/content.config.ts` — コンテンツローダー（`base: '../docs'`）。
+  - `src/pages/shared/0-prereqs.astro` — 従来の `/shared/0-prereqs/` URL をホームページへ転送する完全な HTML リダイレクト。
+- **`AUTHORING.md`** — 執筆者向けの入口（コンテンツの追加・編集手順）。
+- **`CONTRIBUTING.md`** — PR フローと CI 要件。
 - **`.github/`**
-  - `copilot-instructions.md` + `instructions/*.md` — Authoring guidance for Copilot.
-  - `agents/`, `skills/` — Custom agents and skills available to Copilot in this repo.
-  - `workflows/pages.yml` — Builds and deploys the site on pushes to `main`.
+  - `copilot-instructions.md` + `instructions/*.md` — Copilot 向けの執筆ガイダンス。
+  - `agents/`、`skills/` — このリポジトリで Copilot が利用できるカスタムエージェントとスキル。
+  - `workflows/pages.yml` — `main` へのプッシュ時にサイトをビルド・デプロイします。
 
-## Local development
+## ローカル開発
 
-From the repo root:
+リポジトリのルートから実行します:
 
 ```bash
 cd website
@@ -45,20 +45,20 @@ npm install
 npm run dev
 ```
 
-The site runs at <http://localhost:4321/copilot-workshops/>.
+サイトは <http://localhost:4321/copilot-workshops/> で起動します。
 
-## Verification
+## 検証
 
-Before opening a PR, build the site and run the full verification sequence — clean build, page-count check, and offline link check (lychee). The canonical commands live in **[AUTHORING.md → Building and verifying](./AUTHORING.md#building-and-verifying)** and the [`build-and-verify-docs`](./.github/skills/build-and-verify-docs/SKILL.md) skill. CI (`pages.yml`) runs the build and the lychee link check.
+PR を作成する前に、サイトをビルドして一連の検証（クリーンビルド、ページ数チェック、オフラインリンクチェック（lychee））を実行してください。正式なコマンドは **[AUTHORING.md → Building and verifying](./AUTHORING.md#building-and-verifying)** および [`build-and-verify-docs`](./.github/skills/build-and-verify-docs/SKILL.md) スキルに記載されています。CI（`pages.yml`）ではビルドと lychee のリンクチェックが実行されます。
 
-## License
+## ライセンス
 
-MIT — see [LICENSE](./LICENSE).
+MIT — [LICENSE](./LICENSE) を参照してください。
 
-## Maintainers
+## メンテナー
 
-See [CODEOWNERS](./.github/CODEOWNERS).
+[CODEOWNERS](./.github/CODEOWNERS) を参照してください。
 
-## Support
+## サポート
 
-Provided as-is. Open an issue if you have questions.
+現状のまま（as-is）提供されます。ご質問があれば issue を作成してください。
