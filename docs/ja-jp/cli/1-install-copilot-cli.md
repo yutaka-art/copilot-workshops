@@ -86,7 +86,7 @@ Copilot CLI は [npm][install-npm]、[WinGet][install-winget]、[Homebrew][insta
 3. Copilot に簡単な質問をして、正しく動作していることを確認します。
 
    ```
-   What files are in this project?
+   このプロジェクトにはどのようなファイルが含まれていますか？
    ```
 
 4. Copilot がリポジトリを探索し、プロジェクト構造の概要を返すはずです。
