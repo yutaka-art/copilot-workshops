@@ -60,7 +60,7 @@ GitHub Copilot エコシステムをさらに試してみたい場合は、[VS C
 - [カスタム エージェント ドキュメント][custom-agents]
 - [MCP 仕様][mcp-spec]
 
-[previous-lesson]: ../7-slash-commands/
+[previous-lesson]: ./7-slash-commands.md
 [about-copilot-cli]: https://docs.github.com/copilot/concepts/agents/about-copilot-cli
 [using-copilot-cli]: https://docs.github.com/copilot/how-tos/use-copilot-agents/use-copilot-cli
 [awesome-copilot]: https://github.com/github/awesome-copilot
