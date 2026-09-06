@@ -126,7 +126,7 @@ custom instruction の効果を見るため、まずは現在の instruction を
 2. Copilot CLI のプロンプトで、フィルタリング UI が利用する publishers helper を生成するよう依頼します。
 
    ```plaintext
-   Create a new data-access helper at src/lib/publishers.ts to return a list of all publishers. It should return the name and id for all publishers. Do not run the tests yet.
+   すべてのパブリッシャーのリストを返すデータアクセス用ヘルパーを `src/lib/publishers.ts` に作成してください。すべてのパブリッシャーの「名前」と「ID」を返すようにします。まだテストは実行しないでください。
    ```
 
 3. Copilot CLI はプロジェクトを探索し、計画を提案し、この `--yolo` セッションでファイルを書き込みます。ターミナル出力の変化を確認し、その後エディターでレビューします。
@@ -146,8 +146,8 @@ custom instruction の効果を見るため、まずは現在の instruction を
 3. 既存の標準のすぐ下に、次の markdown 行を追加して、ファイル コメント ヘッダーと TSDoc の doc comment を追加するよう Copilot に指示します。
 
    ```markdown
-   - Every exported function should have a TSDoc comment describing its purpose, parameters, and return value.
-   - Before imports or any code, add a comment block to the file that explains its purpose.
+   - エクスポートされるすべての関数には、その目的、引数、および戻り値を説明するTSDocコメントを記述してください。
+   - import文やその他のコードの前に、ファイルの目的を説明するコメントブロックを記述してください。
    ```
 
 4. `copilot-instructions.md` を保存します。
@@ -162,7 +162,7 @@ instruction に doc comment ルールを追加したので、先ほど生成し�
 2. 次のプロンプトを送信します。
 
    ```plaintext
-   Update src/lib/publishers.ts to follow the latest documentation conventions in .github/copilot-instructions.md.
+   `.github/copilot-instructions.md` に記載されている最新のドキュメントの慣行に従うよう、`src/lib/publishers.ts` を更新してください。
    ```
 
 3. 編集が完了したら、`src/lib/publishers.ts` をもう一度開きます。
@@ -232,8 +232,8 @@ instruction に doc comment ルールを追加したので、先ほど生成し�
 - [Copilot 向けの custom instruction をより良く書くための 5 つのヒント][copilot-instructions-five-tips]
 - [Awesome Copilot — instruction file などのリソース集][awesome-copilot]
 
-[previous-lesson]: ../1-install-copilot-cli/
-[next-lesson]: ../3-generating-code/
+[previous-lesson]: ./1-install-copilot-cli.md
+[next-lesson]: ./3-generating-code.md
 [instruction-files]: https://docs.github.com/copilot/customizing-copilot/about-customizing-github-copilot-chat-responses
 [instructions-best-practices]: https://docs.github.com/enterprise-cloud@latest/copilot/using-github-copilot/coding-agent/best-practices-for-using-copilot-to-work-on-tasks#adding-custom-instructions-to-your-repository
 [copilot-instructions-five-tips]: https://github.blog/ai-and-ml/github-copilot/5-tips-for-writing-better-custom-instructions-for-copilot/
