@@ -42,7 +42,7 @@ lastUpdated: 2026-06-30
 
 ## はじめる
 
-**[演習 0: 前提条件から始める →][docs/ja-jp/cli/0-prerequisites.md]**
+**[演習 0: 前提条件から始める →](/docs/ja-jp/cli/0-prerequisites.md)**
 
 [ex0]: 0-prerequisites/
 [ex1]: 1-install-copilot-cli/
