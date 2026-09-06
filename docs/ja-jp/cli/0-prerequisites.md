@@ -68,4 +68,4 @@ Copilot CLI をインストールし、GitHub アカウントで認証しまし�
 
 [template-repository]: https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-template-repository
 [codespaces-quickstart]: https://docs.github.com/codespaces/getting-started/quickstart
-[next-lesson]: ../1-install-copilot-cli/
+[next-lesson]: ../1-install-copilot-cli.md
