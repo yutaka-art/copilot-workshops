@@ -135,7 +135,7 @@ AI ツールを含め、どのツールでも使いこなすにはスキルが�
 2. 小さく、スコープが明確な prompt を送信します。たとえば、バックログにある stretch goal のページネーションを委任できます。
 
     ```
-    Implement pagination on the game list page so it shows a fixed number of games per page with Previous and Next controls, and add tests.
+    ゲーム一覧ページにページネーションを実装し、1ページあたりの表示件数を固定した上で「前へ」「次へ」の操作を可能にしてください。また、テストも追加してください。
     ```
 
 3. 次の slash command を送信して、セッションを cloud agent に引き渡します。続いて、委任したい prompt を確認します。
@@ -166,8 +166,8 @@ Copilot CLI の slash command を使うと、設定の変更、セッション�
 - [Copilot CLI でセッションを共有する][share-sessions]
 - [Copilot CLI でモデルを選択する][selecting-models]
 
-[previous-lesson]: ../6-custom-agents/
-[next-lesson]: ../8-review/
+[previous-lesson]: ./6-custom-agents.md
+[next-lesson]: ./8-review.md
 [using-copilot-cli]: https://docs.github.com/copilot/how-tos/use-copilot-agents/use-copilot-cli
 [about-copilot-cli]: https://docs.github.com/copilot/concepts/agents/about-copilot-cli
 [about-cloud-agent]: https://docs.github.com/copilot/concepts/agents/cloud-agent/about-cloud-agent
